@@ -1,7 +1,7 @@
 # Multithreaded-Indexer-API
 
 ### Main Feature:  
-Creates an index containing each word from a book (.txt file), assuming the word has a dictionary definition and isn’t in the set of excluded words. The index includes the page number(s) the word appears on and the number of times the word appears in total.  
+Creates an index containing each word from a book (.txt file), assuming that the word has a dictionary definition and isn’t in the set of excluded words (the 1000 most common words). The index includes the page number(s) the word appears on and the number of times the word appears in total within the text.  
 
 ### Extra Features:  
 • Prints each word’s total number of occurrences to the output file.  
@@ -16,10 +16,12 @@ Using virtual threads, each line in the book was parsed into its individual word
 The final output file accessed the first map of words, checked if it had a matching word in the dictionary and, if so, accessed its definition. These words, assuming they were not also present in the set of excluded words, were added to the output file, alongside their definitions, their page number(s), and the number of times they appeared.  
 Optionally, the number of unique words in the book could be displayed by accessing the size of the set of keys in its map. Similarly, these keys could be printed out to display each unique word in the book.
 
-### How to use application:  
-Run the application via the Runner() class or by entering “java --enable-preview -cp ./indexer.jar ie.atu.sw.Runner” into the command line.  
-The menu displays the options (1-8) available. The user inputs a number, depending on the desired option.  
+### How to use the application:  
+• Run the application via the Runner() class or by entering “java --enable-preview -cp ./indexer.jar ie.atu.sw.Runner” into the command line.  
+• The menu displays the options (1-8) available. The user inputs a number, depending on the desired option.  
+
+<img width="360" alt="AOOPmenu" src="https://user-images.githubusercontent.com/124048714/216377411-3cfe6cd1-39a8-4467-8dbb-37c386339dc1.png">  
 Note: Options 1-4 must be specified/configured before using Option 7; Option 1 must be specified before using Options 5-6; it is assumed that the dictionary.csv (98,544 words) and google-1000.txt files are present in the project directory.  
 
 ### Technology used:
-Java 19
+• Java 19
