@@ -25,7 +25,9 @@ View of Menu:
 <img width="360" alt="AOOPmenu" src="https://user-images.githubusercontent.com/124048714/216377411-3cfe6cd1-39a8-4467-8dbb-37c386339dc1.png">
 Note - Options 1-4 must be specified/configured before using Option 7; Option 1 must be specified before using Options 5-6; it is assumed that the dictionary.csv (98,544 words) and google-1000.txt files are present in the project directory.  
 
- Sample Output (Index sourced from Machiavelli's The Prince):  
+  
+  
+Sample Output (Index sourced from Machiavelli's The Prince):  
 
 <img width="682" alt="IndexerOutput" src="https://user-images.githubusercontent.com/124048714/217574799-1ed8ab6f-1ea3-431a-a9f4-a73490539e64.png">
 
