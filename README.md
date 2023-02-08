@@ -23,7 +23,8 @@ Optionally, the number of unique words in the book could be displayed by accessi
 View of Menu:   
 
 <img width="360" alt="AOOPmenu" src="https://user-images.githubusercontent.com/124048714/216377411-3cfe6cd1-39a8-4467-8dbb-37c386339dc1.png">
-Note - Options 1-4 must be specified/configured before using Option 7; Option 1 must be specified before using Options 5-6; it is assumed that the dictionary.csv (98,544 words) and google-1000.txt files are present in the project directory.  
+- Note: Options 1-4 must be specified/configured before using Option 7; Option 1 must be specified before using Options 5-6; it is assumed that the dictionary.csv (98,544 words) and google-1000.txt files are present in the project directory  
+ 
 
   
   
